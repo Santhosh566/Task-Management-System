@@ -1,0 +1,104 @@
+/* Home.css */
+
+/* Overall page styles */
+.home {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color:palevioletred;
+  }
+  
+  /* Task form styling */
+  .task-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-task-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-task-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Task sections styling */
+  .task-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .task-section {
+    width: 30%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .task-section h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Task list styling */
+  .task-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-section li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .task-section li:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Task buttons */
+  .task-section button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-section button:hover {
+    background-color: #1976d2;
+  }
+  
