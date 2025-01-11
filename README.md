@@ -66,6 +66,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## User Interface
+![image](https://github.com/user-attachments/assets/9a24e8ee-2de5-4357-84ca-bdf36005ab6b)
+
 
 ## Contact
 
